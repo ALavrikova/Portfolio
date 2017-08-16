@@ -1,0 +1,292 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+#header {
+	background-color: #C6DFC6;
+	height: 70px;
+	width: 1320px;
+	padding-top: 15px;
+	color: #342319;
+}
+#name {
+	display: inline-block;
+	width: 320px;
+	font-size: 50px;
+	margin-left: 60px;
+	font-family: Century Gothic;
+	font-weight: 600;
+	vertical-align: center;
+}
+
+#info {
+	display: inline-block;
+	width: 900px;
+	text-align: right;
+	font-size: 28px;
+	font-family: Century Gothic;
+	color: #ffab40;
+}
+
+#darkBackground {
+	background-color: #a3b455;
+	height: 1400px;
+	width: 1320px;
+}
+
+#twoBlocks {
+	/*border: 2px solid yellow;*/
+	margin: 0px 30px 30px 30px;
+}
+
+#picture {
+	height: 350px;
+	width: 608px;
+	/*border: 2px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+#picture img {
+	height: 98%;
+	width: 98%;
+	border: 5px solid #f6f4e5;
+}
+
+#about {
+	height: 330px;
+	width: 608px;
+	/*border: 2px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+	margin-top: 20px;
+	color: #342319;	
+}
+
+#aboutHeader p {
+	font-family: Century Gothic;
+	font-size: 30px;
+}
+
+#shortInfo {
+	font-family: Century Gothic;
+	color: #342319;
+	line-height: 2.5;
+}
+
+#shortInfo a {
+	color: #76682E;
+}
+
+#threeBlocks {
+	margin: 0px 30px 0px 30px;
+}
+
+#avocado {
+	display: inline-block;
+	width: 400px;
+	height:1000px;
+	/*border: 3px solid purple;*/
+	margin: 0px -4px 0px 0px;
+}
+
+/*#avocadoHeader {
+	border: 2px solid blue;
+	height: 90px;
+	text-align: center;
+}*/
+
+.veggieHeader {
+	text-align: left;
+	vertical-align: center;
+	/*border: 1px solid white;*/
+	background-color: #f6f4e5;
+	font-family: Century Gothic;
+	font-size: 25px;
+	height: 65px;
+	padding-top: 25px;
+	padding-left: 25px;
+	color: #352319;
+}
+
+/*#avocadoPhoto {
+	border: 2px solid blue;
+	height: 270px;
+}*/
+
+.veggiePhoto {
+	height: 270px;
+	/*border: 2px solid blue;*/
+}
+
+.veggiePhoto img {
+	height:100%;
+	width: 100%;
+}
+
+/*#avocadoInfo {
+	border: 2px solid blue;
+	height: 270px;
+}*/
+
+.veggieInfo {
+	height: 265px;
+	/*border: 2px solid blue;*/
+	font-family: Century Gothic;
+	font-size: 14px;
+	text-align: justify;
+	background-color: #C6DFC6;
+	padding: 0px 10px 10px 10px;
+	color: #342319;
+}
+
+/*#avocadoTech {
+	border: 2px solid blue;
+	height: 90px;
+}*/
+
+.veggieTech {
+	/*border: 2px solid blue;*/
+	font-family: Century Gothic;
+	font-weight: 200;
+	background-color: #f6f4e5;
+	text-align: left;
+	vertical-align: center;
+/*	border: 1px solid white;*/
+	font-size: 25px;
+	/*background-color: #C6DFC6;*/
+	height: 65px;
+	padding-top: 25px;
+	padding-left: 25px;
+	color: #352319;
+}
+
+/*.veggieTech {
+	text-align: center;
+	vertical-align: center;
+	border: 1px solid white;
+	font-size: 25px;
+	background-color: #C6DFC6;
+}*/
+
+/*#avocadoIcons {
+	border: 2px solid blue;
+	height: 280px;
+}*/
+
+.veggieIcons {
+	/*border: 2px solid blue;*/
+	height: 250px;
+	background-color: #C6DFC6;
+	padding: 15px;
+		text-align: center;
+}
+
+.veggieIcons img {
+	height:65px;
+	width: 65px;
+}
+
+.veggieIcons button {
+	width: 100px;
+	height: 50px;
+	border-radius: 25px;
+	margin-top: 20px;
+	font-family: Century Gothic;
+	font-size: 14px;
+	background-color: #d6ba32;
+	border: 5px solid #efe5b1;
+	color: #342319;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+#beets {
+	display: inline-block;
+	width: 400px;
+	height: 1000px;
+	/*border: 3px solid purple;*/
+	margin: 0px -4px 0px 20px;
+}
+
+#potato {
+	display: inline-block;
+	width: 400px;
+	height: 1000px;
+	/*border: 3px solid purple;*/
+	margin: 0px -4px 0px 20px;
+}
+
+#footer {
+	width: 1320px;
+	height:20px;
+	background-color: #76682E;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+#contacts {
+	width: 1320px;
+	height:25px;
+	background-color: #76682E;
+	text-align: center;
+	/*border: 2px solid white;*/
+	font-size: 12px;
+	font-family: sans-serif;
+	padding-top: 5px;
+	color: white;
+	font-weight: 100;
+
+}
+
+/*#contacts p{
+	vertical-align: center;
+}*/
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;   
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
